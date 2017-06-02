@@ -1,0 +1,415 @@
+.colorblue {
+    background: #2468a3;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-default .navbar-brand, .navbar-nav ul li a {
+    color: white;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: white;
+    background: none;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover {
+    color: #66ccff;
+    background: none;
+}
+
+.navbar-default {
+    border: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+}
+
+.margin-top {
+    margin-top: 25px;
+}
+
+.navbar-default .navbar-nav > .active > a:first-child {
+    padding-left: 0;
+}
+
+.navbar-collapse {
+    padding-left: 0;
+}
+
+.left {
+    float: left;
+}
+
+.trbold {
+    font-weight: bold;
+    padding-right: 35px;
+    color: black;
+
+}
+
+tr {
+    color: grey;
+}
+
+.paddingtop15px {
+    padding-top: 10px;
+}
+
+.heigt35 {
+    height: 35px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.box1 {
+    width: 100%;
+    font-size: 18px;
+    background: #0fa2ec;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.box2 {
+    width: 100%;
+    height: 272px;
+    overflow-y: scroll;
+    border: 1px solid #cecece;
+}
+
+.taskchoice {
+    color: #0fa2ec;
+    padding: 6px;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+
+.taskchoiceactiv {
+    background: #f5f5f5;
+}
+
+.h3bold {
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.h3normal {
+    font-size: 18px;
+    width: 100%;
+}
+
+.border1 {
+    border-bottom: 1px solid #d8dada;
+    width: 74%;
+    padding-top: 29px;
+}
+
+.namedetails {
+    padding: 10px;
+}
+
+.table2 {
+    padding-right: 40px;
+    padding-left: 10px;
+
+}
+
+.black {
+    color: black;
+}
+
+.border2 {
+    border-bottom: 1px solid #d8dada;
+    width: 61%;
+
+    padding-top: 29px;
+}
+
+.table3 {
+    width: 73.1%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.h3bold2 {
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+@media (max-width: 1199px) {
+    .table3 {
+        width: 70.2%;
+        padding-left: 10px;
+    }
+
+}
+
+.grey {
+    color: #999999;
+
+}
+
+.comment3 {
+    border-radius: 10px;
+    background: white;
+    box-shadow: #0f0f0f;
+    border: 1px solid #e4e6eb;
+    padding: 10px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.marginbuttom {
+    margin-bottom: 15px;
+}
+.right{
+    float: right;
+}
+.sidebar1{
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.group1{
+    margin-top: 10px;
+}
+.sidebar1 ul li{
+    padding: 1px;
+    margin: 14px 0;
+    list-style: none;
+    padding-left: 20%;
+    color: #336699;
+    font-size: 18px;
+}
+.margin-top1{
+margin-top: 40px;
+}
+.sidebar1 ul  .active2{
+
+    list-style: none;
+    padding-left: 20%;
+    background: #3399cc;
+    font-size: 18px;
+    color: white;
+}
+.sidebar1 ul{
+    padding: 0;
+}
+.with25{
+    width: 25%;
+
+}
+.namegroup{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin:5px 0;
+}
+.jobgroup{
+    font-size: 16px;
+    color: #666666;
+    margin: 5px 0;
+}
+/** Layout **/
+
+ 
+    /** Styling input[type=file] **/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.width100{
+    width: 100%;
+}
+.height39{
+    height: 39px;
+}
+.margin-top15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input[type=text]{
+
+    padding: 2px;
+    padding-left: 5px;
+}
+@media (max-width: 1199px) {
+    .namegroup{
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        margin:3px 0;
+    }
+    .jobgroup{
+        font-size: 14px;
+        color: #666666;
+        margin: 3px 0;
+    }
+}
+@media (max-width: 992px) {
+    .sidebar1 ul li{
+        padding: 1px;
+        margin: 14px 0;
+        list-style: none;
+        padding-left: 20%;
+        color: #336699;
+        font-size: 18px;
+    }
+    .sidebar1 ul li:first-child{
+        padding-left: 15px;
+    }
+
+    .sidebar1 {
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        width: 100%;
+        float: left;
+        padding-left: 2%;
+    }
+    .sidebar1 ul .active2 {
+        list-style: none;
+        padding-left: 0;
+                font-size: 14px;
+        color: #3399cc;
+        background: none;
+    }
+    .sidebar1 ul li {
+
+        float: left;
+        list-style: none;
+        padding-left: 15px;
+        color: #336699;
+        font-size: 14px;
+    }
+    .adaptivsidebar1{
+        width: 100%;
+    }
+    .adaptivmargintop {
+        margin-top: 10px;
+    }
+
+    .table3 {
+        width: 76.6%;
+
+        padding-left: 10px;
+    }
+
+    .table-responsive {
+        border: NONE;
+    }
+
+    .xs-10 {
+        width: 10% !important;
+        padding-right: 0;
+
+    }
+
+    .xs-11 {
+        width: 11% !important;
+        padding-right: 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav > .active > a:first-child {
+        padding-left: 15px;
+    }
+    .avatar-view {
+        display: inline-block;
+        margin: auto;
+        width: 89px;
+    }
+
+    .table3 {
+        width: 72.2%;
+
+        padding-left: 10px;
+    }
+
+    .xs-10 {
+        width: 10% !important;
+
+    }
+    .trbold{
+        width: 134px;
+    }
+}
+
+@media (max-width: 992px) {
+    .xs-11 {
+        width: 15% !important;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 470px) {
+    .mobilewidth100 {
+        width: 100%;
+
+    }
+
+    .table2 {
+        width: 69%;
+    }
+    .group1{
+        width: 100%;
+
+    }
+    .adaptivwith100{
+        width: 100%;
+
+
+    }
+    .centergroup{
+        text-align: center;
+        display: initial!important;
+    }
+}
+@media (max-width: 425px) {
+
+
+}
