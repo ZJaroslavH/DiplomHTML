@@ -53,20 +53,14 @@
 <div class="container margin-top">
 
 
-
-
-
-
-
-
-        <div class="row">
+    <div class="row">
         <div class="col-md-12 "><h1>Личные данные</h1></div>
     </div>
     <div class="row">
         <div class="col-md-2 col-sm-2">
             <img src="images/avatar.png" class="img-responsive" alt="avatar">
             <!--Crop-->
-            <div class="margin-top15"  id="crop-avatar">
+            <div class="margin-top15" id="crop-avatar">
 
                 <!-- Current avatar -->
                 <div class="avatar-view" title="Change the avatar">
@@ -74,7 +68,8 @@
                 </div>
 
                 <!-- Cropping modal -->
-                <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+                <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label"
+                     role="dialog" tabindex="-1">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <form class="avatar-form" action="crop.php" enctype="multipart/form-data" method="post">
@@ -108,20 +103,38 @@
                                         <div class="row avatar-btns">
                                             <div class="col-md-9">
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="-90" title="Rotate -90 degrees">Rotate Left</button>
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="-15">-15deg</button>
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="-30">-30deg</button>
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="-45">-45deg</button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="-90" title="Rotate -90 degrees">Rotate Left
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="-15">-15deg
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="-30">-30deg
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="-45">-45deg
+                                                    </button>
                                                 </div>
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="90" title="Rotate 90 degrees">Rotate Right</button>
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="15">15deg</button>
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="30">30deg</button>
-                                                    <button type="button" class="btn btn-primary" data-method="rotate" data-option="45">45deg</button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="90" title="Rotate 90 degrees">Rotate Right
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="15">15deg
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="30">30deg
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-method="rotate"
+                                                            data-option="45">45deg
+                                                    </button>
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
-                                                <button type="submit" class="btn btn-primary btn-block avatar-save">Done</button>
+                                                <button type="submit" class="btn btn-primary btn-block avatar-save">
+                                                    Done
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -139,58 +152,65 @@
             </div>
             <!--end crop-->
         </div>
-        <div class="col-md-5 col-sm-5 a">
-            <div>
-                <table class="font16 width100">
-                    <tr class="height39 ">
-                        <td class="trbold">Фамилия:</td>
-                        <td><input  class="width100" type="text" value="test"></td>
-                    </tr>
-                    <tr class="height39 ">
-                        <td class="trbold">Имя:</td>
-                        <td><input  class="width100" type="text" value="test"></td>
-                    </tr>
-                    <tr class="height39 ">
-                        <td class="trbold">Отчество:</td>
-                        <td><input  class="width100" type="text" value="test"> </td>
-                    </tr>
-                    <tr class="height39 ">
-                        <td class="trbold">Номер:</td>
-                        <td><input  class="width100" type="text" value="test"></td>
-                    </tr>
+        <div class="col-md-10 col-sm-10">
+            <form action="">
+            <div class="col-md-6 col-sm-6 padding0">
+                <div>
+                    <table class="font16 width100">
+                        <tr class="height39 ">
+                            <td class="trbold">Фамилия:</td>
+                            <td><input class="width90" type="text" value="test"></td>
+                        </tr>
+                        <tr class="height39 ">
+                            <td class="trbold">Имя:</td>
+                            <td><input class="width90" type="text" value="test"></td>
+                        </tr>
+                        <tr class="height39 ">
+                            <td class="trbold">Отчество:</td>
+                            <td><input class="width90" type="text" value="test"></td>
+                        </tr>
+                        <tr class="height39 ">
+                            <td class="trbold">Номер:</td>
+                            <td><input class="width90" type="text" value="test"></td>
+                        </tr>
 
-                </table>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="col-md-5 col-sm-5">
-            <div>
-                <table class="font16 width100">
+            <div class="col-md-6 col-sm-6 padding0">
+                <div>
+                    <table class="font16 width100">
 
-                    <tr class="height39 ">
-                        <td class="trbold">Адрес:
-                        </td>
-                        <td><input  class="width100" type="text" value="test">
-                        </td>
-                    </tr>
-                    <tr class="height39 ">
-                        <td class="trbold">E-mail:</td>
-                        <td><input  class="width100" type="text" value="test"></td>
-                    </tr>
+                        <tr class="height39 ">
+                            <td class="trbold">Адрес:
+                            </td>
+                            <td><input class="width90" type="text" value="test">
+                            </td>
+                        </tr>
+                        <tr class="height39 ">
+                            <td class="trbold">E-mail:</td>
+                            <td><input class="width90" type="text" value="test"></td>
+                        </tr>
 
-                    <tr class="height39 ">
-                        <td class="trbold">Должность:</td>
-                        <td ><input  class="width100" type="text" value="test"></td>
-                    </tr>
-                </table>
+                        <tr class="height39 ">
+                            <td class="trbold">Должность:</td>
+                            <td><input class="width90" type="text" value="test"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
+                <div class="col-xs-12 padding0 margin-top15 left">
+                <button type="submit" value="Сохрнить" class="btn-primary btn">Сохрнить</button>
+                </div>
+            </form>
         </div>
 
     </div>
-    </div>
+</div>
 
 
 <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 <script src="js/cropper.min.js"></script>
 <script src="js/main.js"></script>
 </body>
